@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 8px;
+        padding: 5px;
+        box-sizing: border-box;
+        border-radius: 2px;
+      }
+      body {
+        background-color: rgb(245, 245, 232);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        box-shadow: 1px 10px 1px 10;
+      }
+      .container {
+        width: 100%;
+        max-width: fit-content;
+        justify-content: center;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 4px;
+        box-shadow: 2px 2px 2px 3px;
+      }
+      .form-container {
+        align-items: center;
+      }
+      .input1 {
+        border-radius: 2px;
+      }
+      .input2 {
+        width: 150px;
+      }
+      .input3 {
+        width: 360px;
+        margin: 3px;
+        padding: 2px;
+      }
+      .button2 {
+        background-color: green;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        border-radius: 4px;
+      }
+      h1 {
+        color: blue;
+        display: flex;
+        text-align: center;
+      }
+      .gender1{
+        size: 20px;
+        height: 38px;
+        border-radius: 4px;
+        margin: 2px;
+      }
+      .gender2{
+        size: 20px;
+        height: 38px;
+        border-radius: 4px;
+        margin: 2px;
+      }
+      .gender3{
+        size: 20px;
+        height: 38px;
+        border-radius: 4px;
+        margin: 2px;
+      }
+      
+      
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>facebook</h1>
+      <div class="form-container">
+        <h2>Create your new account</h2>
+        <p>Its quick and easy way</p>
+        <form action="#" method="post">
+          <input type="text" placeholder="First Name" class="input1" />
+          <input type="text" placeholder="SurName" class="input2" /><br />
+          <input
+            type="text"
+            placeholder="Mobile Number or Email adress"
+            class="input3"
+          /><br />
+          <input type="password" placeholder="New password" /><br />
+          Date of birth <br />
+          <input type="date" />
+          <div class="gender">
+            <p>Gender&#xf059;</p>
+            <button class="gender1">
+              Male <input type="radio" value="male" name="gender" />
+            </button>
+            <button class="gender2">
+              Female <input type="radio" value="female" name="gender" />
+            </button>
+            <button class="gender3">
+              Custom <input type="radio" value="custom" name="gender" />
+            </button>
+          </div>
+          <p>
+            People who use our service may have uploaded your contact
+            information to <br />
+            facebook.Learn more
+          </p>
+          By checking sign up you agree to our terms.Privacy, Policy and Cookies
+          policy. <br />
+          You may receive SMS notifications from us and can opt out at any time.
+          <br />
+          <button type="submit" class="button2">Sign up</button>
+          <a href="signup.html">page#3</a>
+          <a href="index.html">page#1</a>
+          <a href="forget.html">page#2</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

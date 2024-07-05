@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    color: #1877f2;
+    font-size: 32px;
+    margin: 0;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-right: 8px;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.login-form button {
+    padding: 10px 20px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login-form a {
+    margin-left: 10px;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.form-container h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.form-container p {
+    font-size: 14px;
+    color: #606770;
+    margin-bottom: 20px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 18px;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons .cancel,
+.buttons .search {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.buttons .cancel {
+    background-color: #f0f2f5;
+    color: #4b4f56;
+}
+
+.buttons .search {
+    background-color: #1877f2;
+    color: white;
+}
+footer{
+    padding: 10px 20px;
+    margin: 30px 10px;
+    background-color: #ecf0f5;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>facebook</h1>
+            </div>
+            <div class="login-form">
+                <form action="#" method="post">
+                    <input type="text" name="email" placeholder="Email or phone">
+                    <input type="password" name="password" placeholder="Password">
+                    <button type="submit">Log in</button>
+                </form>
+                <a href="#">Forgotten account?</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="form-container">
+            <h2>Find Your Account</h2>
+            <p>Please enter your email address or mobile number to search for your account.</p>
+            <form action="#" method="post">
+                <input type="text" name="emailOrPhone" placeholder="Email address or mobile number">
+                <div class="buttons">
+                    <button type="button" class="cancel">Cancel</button>
+                    <button type="submit" class="search">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </header>
+    <footer>
+        <a href="forget.html">page#1</a>
+        <a href="index.html">page#2</a>
+        <a href="signup.html">page#3</a>
+    </footer>
+
+</body>
+</html>
